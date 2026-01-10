@@ -1,0 +1,25 @@
+{
+  "name": "intigrationtest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:integration": "./scripts/run-integration.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "@types/express": "^5.0.6",
+    "express": "^5.2.1",
+    "prisma": "^5.22.0",
+    "vitest": "^4.0.16",
+    "zod": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/supertest": "^6.0.3",
+    "supertest": "^7.2.2"
+  }
+}
